@@ -1,36 +1,17 @@
-### Getting started
-There are various things you can do to quickly and efficiently configure your Codio Box to your exact requirements. 
+*******************************************************************************
+This is a program the generates random lines from a two different text files.
 
-### GUI Applications and the Virtual Desktop 
-The Virtual Desktop allows you auto develop GUI based applications using any programming language. You can install a Virtual Desktop in your Box. You can then start the desktop and view it within the Codio IDE or in a new browser tab.
-
-[Virtual Desktop documentation](https://codio.com/docs/ide/boxes/installsw/gui/)
-
-
-### Command line access and the Terminal window
-All Codio Boxes provide sudo level privileges to the underlying Ubuntu server. This means you can install and configure any component you like. You access the terminal from the **Tools->Terminal** menu item.
-
-### Debugger
-The Codio IDE comes with a powerful visual debugger. Currently we support Python, Java, C, C++ and NodeJS. Other languages can be added on request.
-
-[Debugger documentation](https://codio.com/docs/ide/features/debugging/)
-
-
-### Content authoring and assessments
-Codio comes with a very powerful content authoring tool, Codio Guides. Guides is also where you create all forms of auto-graded assessments. 
-
-- [Guides documentation](https://codio.com/docs/content/authoring/overview/)
-- [Assessments documentation](https://codio.com/docs/content/authoring/assessments/)
-
-### Templating Box configurations and projects
-Codio offers two very powerful templating options so you can create new projects from those templates with just a couple of clicks. **Stacks** allow you to create snapshots of the Box’s underlying software configuration. You can then create new projects from a Stack avoiding having to configure anew each time you start a new project. **Starter Packs** allow you to template an entire project, including workspace code.
-
-- [Stacks documentation](https://codio.com/docs/project/stacks/)
-- [Starter Packs documentation](https://codio.com/docs/project/packs/)
-
-### Install software
-You can always install software onto your Box using the command line. However, Codio offers a shortcut for commonly installed components that can be accessed from the **Tools->Install Software** menu.
-
-We can easily add new items to the Install Software screen, so feel free to submit requests.
-
-[Install Software documentation](https://codio.com/docs/ide/boxes/installsw/box-parts/)
+Description:
+There are two different textfiles: Trump.txt and Warren.txt. These textfiles
+contain the lyrics to songs that are played during the campaigns of the two
+respective political candidates. This program allows the user to:
+-> Choose the number of lines to display on the console
+-> Display lyrics from Trump.txt on the console
+-> Display lyrics from Warren.txt on the console
+-> Allows the user to take a quiz where random lyrics are displayed and 
+   they are to guess whether it belongs to Trump.txt or Warren.txt
+   
+Coding details:
+Language: C++ 11
+Works on all IDEs where C++ code can run.
+No graphical requirements.
