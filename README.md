@@ -1,5 +1,5 @@
 # Rally Songs
-*******************************************************************************
+
 This is a program the generates random lines from a two different text files.
 
 Description:
